@@ -844,3 +844,217 @@ body {
     font-size: 1.2rem;
   }
 }
+
+
+
+
+
+/* ======================================
+ TABLET AND MOBILE RESPONSIVENESS
+===========================================*/
+
+body {
+  min-width: 0;
+  overflow-x: hidden;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 18px 28px;
+  }
+  .logo {
+    font-size: 1.35rem;
+  }
+  .nav-links {
+    gap: 18px;
+  }
+  .why-us,
+  .services-preview {
+    padding: 64px 40px;
+  }
+  .why-us-grid,
+  .services-grid {
+    grid-template-columns: 1fr;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;    
+  }
+  .contact-banner {
+    padding: 50px 40px;
+}
+  .extra-grid,
+  .extra-pricing .extra-grid {
+    grid-template-columns: 1fr;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    position: relative;
+    flex-direction: column;
+    gap: 14px;
+    padding: 16px 18px 12px;
+    text-align: center;
+  }
+  .logo {
+    font-size: 1.18rem;
+    line-height: 1.25;
+  }
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    gap: 8px;
+  }
+  .nav-links li {
+    flex: 1;
+    min-height: 44px;
+    padding: 12px 8px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 9px;
+  }
+  .hero {
+    min-height: calc(100svh - 120px);
+    padding: 70px 20px 64px;
+    background-position: center;
+  }
+  .hero h1 {
+    max-width: 100%;
+    font-size: 2.4rem;
+    line-height: 1.08;
+  }
+  .hero p {
+    margin: 20px auto 30px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+    max-width: 360px;
+    min-height: 50px;
+    padding: 14px 22px;
+  }
+  .secondary-btn {
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: 12px;
+    background: rgba(17, 24, 39, 0.72);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .why-us,
+  .services-preview {
+    padding: 54px 18px;
+  }
+  .why-us h2,
+  .services-preview h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  .why-us-grid,
+  .services-grid {
+    gap: 18px;
+  }
+  .why-card,
+  .service-card {
+    padding: 28px 22px;
+  }
+  .contact-banner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 26px;
+    padding: 44px 20px;
+    text-align: center;
+  }
+  .contact-banner h2 {
+    font-size: 1.9rem;
+  }
+  .contact-banner button {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    white-space: normal;
+  }
+  .footer {
+    padding: 32px 20px;
+  }
+  .extra-hero {
+    padding: 64px 18px;
+  }
+  .extra-hero h1 {
+    font-size: 2.25rem;
+    line-height: 1.12;
+  }
+  .extra-hero p {
+    font-size: 1rem;
+  }
+  .extra-hero .primary-btn,
+  .extra-hero .secondary-btn {
+    display: block;
+    margin: 0 auto 12px;
+  }
+  .extra-section,
+  .extra-pricing,
+  .experience-types {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .extra-grid {
+    gap: 16px;
+  }
+  .extra-card {
+    padding: 23px 20px;
+  }
+  .experience-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .experience-buttons button {
+    min-width: 0;
+    min-height: 48px; 
+    padding: 11px 9px;
+    font-size: 0.9rem;
+  }
+  .selected-experience {
+    padding: 25px 20px;
+  }
+  .selected-experience h3 {
+    font-size: 1.65rem;
+  }
+  .experience-info {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .info-box {
+    min-width: 0;
+  }
+  .contact-page {
+    align-items: flex-start;
+    min-height: 100svh;
+    padding: 20px 14px;
+  }
+  .contact-card {
+    padding: 36px 18px;
+    border-radius: 14px;
+  }
+  .contact-info {
+    padding: 18px 12px;
+  }
+  .contact-value {
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 380px) {
+  .experience-buttons {
+    grid-template-columns: 1fr;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
