@@ -1,16 +1,98 @@
-# React + Vite
+# Medellín Transportation Services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive transportation services website created for a private transportation business operating in Medellín, Colombia, and surrounding areas.
 
-Currently, two official plugins are available:
+## Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View the live website](https://medellin-transport-app.pages.dev/)
 
-## React Compiler
+Replace `PASTE-LIVE-WEBSITE-URL-HERE` with the same live website address you added to the GitHub About section.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About the Project
 
-## Expanding the ESLint configuration
+This website provides information about private transportation services in Medellín, including airport transfers, city rides, custom trips, and local experiences.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The project was designed to give customers a simple and professional way to learn about the available services and access the business’s contact information.
+
+## Features
+
+- Responsive design for desktop, tablet, and mobile screens
+- Private city transportation information
+- Airport transfer services
+- Custom and leisure trip information
+- Medellín restaurant, nightlife, and local experience recommendations
+- Interactive experience categories
+- Dedicated contact page
+- WhatsApp and email contact information
+- Mobile-friendly navigation and buttons
+
+## Technologies Used
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Git
+- GitHub
+
+## Pages
+
+### Home
+
+Introduces the transportation business and presents its primary services, benefits, and contact options.
+
+### Extra Services
+
+Displays local experiences, including restaurants, rooftops, nightlife, coffee shops, Comuna 13, shopping, and VIP activities.
+
+### Contact
+
+Provides the business’s WhatsApp number and email address for reservations and customer questions.
+
+## Responsive Design
+
+The website includes layouts optimized for:
+
+- Desktop computers
+- Tablets
+- Mobile phones
+- Small mobile screens
+
+Cards, navigation, headings, buttons, and contact information automatically adjust to different screen sizes.
+
+## Running the Project Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/mabebeta/medellin-transport-app.git
+```
+
+2. Open the project folder:
+
+```bash
+cd medellin-transport-app
+```
+
+3. Install the dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local address displayed in the terminal.
+
+## Project Status
+
+The website is complete, deployed, and currently live.
+
+## Developer
+
+Developed by [mabebeta](https://github.com/mabebeta)
