@@ -6,7 +6,6 @@ A responsive transportation services website created for a private transportatio
 
 [View the live website](https://medellin-transport-app.pages.dev/)
 
-Replace `PASTE-LIVE-WEBSITE-URL-HERE` with the same live website address you added to the GitHub About section.
 
 ## About the Project
 
